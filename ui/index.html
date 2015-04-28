@@ -1,0 +1,231 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>无标题</title>
+<link rel="stylesheet" type="text/css" href="ui.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.4/css/bootstrap.css">
+</head>
+<body>
+<div class="testdiv homenorth container-fluid">
+	<div class="testdiv titlecol col-md-1"></div>
+	<div class="testdiv titlecol col-md-3">
+	    <div class="testdiv arrowleft" style="display:none">
+	    	<img class="iconlg" title="返回" src="img/CircledArrow Left.png" onclick="backTohome()">
+	    </div>
+		<h1>Start</h1>
+	</div>
+	<div class="testdiv titlecol col-md-5"></div>
+	<div class="testdiv titlecol col-md-3 container">
+		<div class="testdiv northbutton col-md-4">
+			    <h5>U+E006</h5>
+		</div>
+		<div class="testdiv northbutton col-md-2">
+			<div class="testdiv buttoncontain homebutton">
+	    		<img class="navigationicon" src="img/appbar.message.png">
+	    	</div>
+	    </div>
+		<div class="testdiv northbutton col-md-2">
+			<div class="testdiv buttoncontain homebutton">
+	    		<img class="navigationicon" src="img/appbar.key.png">
+	    	</div>
+	    </div>
+		<div class="testdiv northbutton col-md-2">
+			<div class="testdiv buttoncontain homebutton">
+	    		<img class="navigationicon" src="img/appbar.cog.png">
+	    	</div>
+	    </div>
+		<div class="testdiv northbutton col-md-2">
+			<div class="testdiv buttoncontain homebutton">
+	    		<img class="navigationicon" src="img/appbar.power.png">
+	    	</div>
+		</div>
+	</div>
+</div>
+<div class="testdiv homecenter container-fluid">
+	<div class="testdiv titlecol col-md-1"></div>
+	<div id="mainmenu"  class="testdiv titlecol col-md-3"><!--进入子菜单后隐藏-->
+	<div class="testdiv indexblock">
+	    <div class="testdiv blocktitle ">
+	    	<h2>Main Menu</h2>
+	    </div>
+	    <div id="block1" class="testdiv block homebutton">
+	    	<div class="testdiv mainicon" style="background-color:#008A00">
+	    		<img class="imglg" src="img/appbar.people.png">
+	    	</div>
+	    	<div class="testdiv maincontent">
+	    		<h3>自助管理</h3>
+	    	</div>
+	    </div>
+	    <div id="block2" class="testdiv block homebutton">
+	    	<div class="testdiv mainicon" style="background-color:#00ABA9">
+	    		<img class="imglg" src="img/appbar.folder.people.png">
+	    	</div>
+	    	<div class="testdiv maincontent">
+	    		<h3>人事管理</h3>
+	    	</div>
+	    </div>
+	    <div id="block3" class="testdiv block homebutton">
+	    	<div class="testdiv mainicon" style="background-color:#1BA1E2">
+	    		<img class="imglg" src="img/appbar.suitcase.png">
+	    	</div>
+	    	<div class="testdiv maincontent">
+	    		<h3>业务管理</h3>
+	    	</div>
+	    </div>
+	    <div id="block4" class="testdiv block homebutton">
+	    	<div class="testdiv mainicon" style="background-color:#0050EF">
+	    		<img class="imglg" src="img/appbar.calendar.dollar.png">
+	    	</div>
+	    	<div class="testdiv maincontent">
+	    		<h3>财务管理</h3>
+	    	</div>
+	    </div>
+	    <div id="block5" class="testdiv block homebutton">
+	    	<div class="testdiv mainicon" style="background-color:#6A00FF">
+	    		<img class="imglg" src="img/appbar.barcode.png">
+	    	</div>
+	    	<div class="testdiv maincontent">
+	    		<h3>固定资产</h3>
+	    	</div>
+	    </div>
+	    <div id="block6" class="testdiv block homebutton">
+	    	<div class="testdiv mainicon" style="background-color:#AA00FF">
+	    		<img class="imglg" src="img/appbar.graph.line.up.png">
+	    	</div>
+	    	<div class="testdiv maincontent">
+	    		<h3>报表中心</h3>
+	    	</div>
+	    </div>
+    </div>
+	</div>
+	<div id="menu1" class="testdiv titlecol col-md-3"><!--进入自助子菜单后显示-->
+		<div class="testdiv bigcontent">
+		    <div class="testdiv bigtitle" style="background-color:#008A00">
+		        <div class="testdiv bigimg">
+		        <img class="img-responsive center-block" src="img/appbar.people.png">
+		        </div>
+		    </div>
+	    	<div class="testdiv blocktitle">
+	    		<h3 style="color:#008A00!important">自助管理</h3>
+	    	</div>			
+		</div>
+	</div>
+	<div id="menu2" class="testdiv titlecol col-md-3"><!--进入人事子菜单后显示-->
+		<div class="testdiv bigcontent">
+		    <div class="testdiv bigtitle" style="background-color:#00ABA9">
+		        <div class="testdiv bigimg">
+		        <img class="img-responsive center-block" src="img/appbar.folder.people.png">
+		        </div>
+		    </div>
+	    	<div class="testdiv blocktitle">
+	    		<h3 style="color:#00ABA9!important">人事管理</h3>
+	    	</div>			
+		</div>
+	</div>
+	<div id="menu3" class="testdiv titlecol col-md-3"><!--进入业务子菜单后显示-->
+		<div class="testdiv bigcontent">
+		    <div class="testdiv bigtitle" style="background-color:#1BA1E2">
+		        <div class="testdiv bigimg">
+		        <img class="img-responsive center-block" src="img/appbar.suitcase.png">
+		        </div>
+		    </div>
+	    	<div class="testdiv blocktitle">
+	    		<h3 style="color:#1BA1E2!important">业务管理</h3>
+	    	</div>			
+		</div>
+	</div>
+	<div id="menu4" class="testdiv titlecol col-md-3"><!--进入财务子菜单后显示-->
+		<div class="testdiv bigcontent">
+		    <div class="testdiv bigtitle" style="background-color:#0050EF">
+		        <div class="testdiv bigimg">
+		        <img class="img-responsive center-block" src="img/appbar.calendar.dollar.png">
+		        </div>
+		    </div>
+	    	<div class="testdiv blocktitle">
+	    		<h3 style="color:#0050EF!important">财务管理</h3>
+	    	</div>			
+		</div>
+	</div>
+	<div id="menu5" class="testdiv titlecol col-md-3"><!--进入固定资产子菜单后显示-->
+		<div class="testdiv bigcontent">
+		    <div class="testdiv bigtitle" style="background-color:#6A00FF">
+		        <div class="testdiv bigimg">
+		        <img class="img-responsive center-block" src="img/appbar.barcode.png">
+		        </div>
+		    </div>
+	    	<div class="testdiv blocktitle">
+	    		<h3 style="color:#6A00FF!important">固定资产</h3>
+	    	</div>			
+		</div>
+	</div>
+	<div id="menu6" class="testdiv titlecol col-md-3"><!--进入报表子菜单后显示-->
+		<div class="testdiv bigcontent">
+		    <div class="testdiv bigtitle" style="background-color:#AA00FF">
+		        <div class="testdiv bigimg">
+		        <img class="img-responsive center-block" src="img/appbar.graph.line.up.png">
+		        </div>
+		    </div>
+	    	<div class="testdiv blocktitle">
+	    		<h3 style="color:#AA00FF!important">报表中心</h3>
+	    	</div>			
+		</div>
+	</div>
+	<div id="commonmenu" class="testdiv titlecol col-md-2">
+	<div class="testdiv indexblock">		
+	    <div class="testdiv blocktitle ">
+	    	<h2>Common</h2>
+	    </div>
+	    <div class="testdiv blocksm homebutton">
+	    	<div class="testdiv mainiconsm" style="background-color:#008A00">
+	    		<img class="imgsm" src="img/appbar.people.png">
+	    	</div>
+	    	<div class="testdiv maincontentsm">
+	    		<h4>信息管理</h4>
+	    		<h5>个人信息管理</h5>
+	    	</div>
+	    </div>
+	    <div class="testdiv blocksm homebutton">
+	    	<div class="testdiv mainiconsm" style="background-color:#00ABA9">
+	    		<img class="imgsm" src="img/appbar.folder.people.png">
+	    	</div>
+	    	<div class="testdiv maincontentsm">
+	    		<h4>人事管理</h4>
+	    		<h5>员工建档</h5>
+	    	</div>
+	    </div>
+	    <div class="testdiv blocksm homebutton">
+	    	<div class="testdiv mainiconsm" style="background-color:#1BA1E2">
+	    		<img class="imgsm" src="img/appbar.suitcase.png">
+	    	</div>
+	    	<div class="testdiv maincontentsm">
+	    		<h4>产品管理</h4>
+	    		<h5>产品管理</h5>
+	    	</div>
+	    </div>
+	</div>
+	</div>
+	<div id="todolist" class="testdiv titlecol col-md-6">
+	<div class="testdiv indexblock">		
+	    <div class="testdiv blocktitle ">
+	    	<h2>To-do List</h2>
+	    </div>
+	    <div class="testdiv blocklg">
+	    	<img class="imglglg" src="img/demo.jpg">
+	    </div>
+	</div>
+	</div>
+	<div id="menulist" class="testdiv titlecol col-md-7"><!--进入子菜单后放置二级菜单的div-->
+	<div class="testdiv bigcontent">
+	    <div class="testdiv menulisttitle">
+	    	<h2>Main Menu</h2>
+	    </div>
+	</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="bootstrap-3.3.4/js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="ui.js"></script>
+</body>
+</html>

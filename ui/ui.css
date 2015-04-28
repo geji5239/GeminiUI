@@ -1,0 +1,148 @@
+body{
+	background-color: #0085D5!important;
+}
+h1{
+	margin-top: 50px!important;
+	font-size: 50px!important;
+	color: white!important;
+	font-family: Microsoft YaHei!important;
+}
+h2{
+	color: white!important;
+	font-family: Microsoft YaHei!important;
+}
+h3{
+	margin-left: 20px!important;
+	color: white!important;
+	float: left;
+	font-family: Microsoft YaHei!important;
+}
+h4{
+	margin:5px 10px 0 15px!important;
+	color: white!important;
+	float: left;
+	font-family: Microsoft YaHei!important;
+}
+h5{
+	margin:5px 0 0 15px!important;
+	color: white!important;
+	float: left;
+}
+/*测试div排布*/
+.testdiv{
+}
+
+/*首页上部标题栏*/
+.homenorth{
+	height: 140px;
+}
+/*首页中心整体*/
+.homecenter{
+	margin-top: 0px;
+}
+.titlecol{
+	height: 100%;
+}
+.northbutton{
+	height: auto;
+	margin-top: 50px;
+	padding-top: 8px;
+}
+/*块状标题div*/
+.block{
+    height: 76px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.blocksm{
+    height: 57px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.blocklg{
+    height: 324px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.blocktitle{
+	height: 50px;
+}
+.mainicon{
+	width: 70px;
+	height: 70px;
+	margin: 2px 0 2px 2px;
+	float: left;
+}
+.mainiconsm{
+	width: 51px;
+	height: 51px;
+	margin: 2px 0 2px 2px;
+	float: left;
+}
+.maincontent{
+	width: auto;
+	height: 70px;
+	margin: 2px 0 2px 2px	
+}
+.maincontentsm{
+	width: auto;
+	height: 51px;
+	margin: 2px 0 2px 2px	
+}
+.navigationicon{
+	width: 100%;
+}
+.buttoncontain{
+	height: 40px;
+	width: 40px;
+}
+.indexblock{
+	filter:alpha(opacity=99); /*IE滤镜，透明度50%*/
+    -moz-opacity:0.99; /*Firefox私有，透明度50%*/
+    opacity:0.99;/*其他，透明度50%*/
+    
+}
+.identity{
+	float: right;
+}
+
+/*按钮图片大小*/
+.imgsm{
+	width: 51px;
+	height: 51px;
+}
+.imglg{
+	width: 72px;
+	height: 72px;
+}
+.imglglg{
+	width: 570px;
+	height: 324px;
+}
+.bigcontent{
+	width: 100%;
+	height: 500px;/*搞完要删*/
+	margin-top: 50px;
+	background-color: white;
+}
+.bigtitle{
+	width: 100%;
+	height: 150px;
+}
+.bigimg{
+	padding-top: 35px;
+}
+.arrowleft{
+	margin-top: 50px;
+	margin-left: -15px;
+	width: 80px;
+}
+.iconlg{
+	width: 80px;
+	height: 80px;
+}
